@@ -5,6 +5,7 @@ import Profile from "@/views/Profile";
 import Features from "@/views/Features";
 import Ultimate from "@/views/Ultimate";
 import Vote from "@/views/Vote";
+import Docs from "@/views/Docs";
 
 Vue.use(VueRouter);
 
@@ -13,6 +14,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/docs",
+    name: "Docs",
+    component: Docs
   },
   {
     path: "/profile",

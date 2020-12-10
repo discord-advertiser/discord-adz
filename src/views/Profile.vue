@@ -40,8 +40,8 @@
       <div id="profileDescription">
         <div id="stats">
           <p class="field">STATS</p>
-          <p class="text">
-            Servers: 1004&nbsp;&nbsp; | &nbsp;&nbsp;Users: 502525
+          <p class="text" v-on:click="getStats">
+            Servers: {{ guilds }}&nbsp;&nbsp; | &nbsp;&nbsp;Users: {{ users }}
           </p>
         </div>
         <div id="sections">
@@ -86,7 +86,27 @@
 </template>
 
 <script>
+const axios = require("axios");
 export default {
-  name: "Profile"
+  name: "Profile",
+  data() {
+    return {
+      guilds: "1100",
+      users: "534640"
+    };
+  },
+  beforeMount() {
+    this.getStats();
+  },
+  methods: {
+    async getStats() {
+      axios({
+        url: "http://135.181.106.198:8081/info"
+      }).then(res => {
+        this.guilds = res.data.guilds;
+        this.users = res.data.users;
+      });
+    }
+  }
 };
 </script>
