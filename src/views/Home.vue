@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <div id="card">
+  <div id="card">
       <div id="info">
         <router-link to="/profile">
           <div class="imageContainer" id="openProfile">
@@ -105,7 +104,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
