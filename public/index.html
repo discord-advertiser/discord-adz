@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Discord, Discord Bot, Astro, Astro Discord Bot, Astro Discord, Voice Channels, temporary, infinite"
+    />
+    <meta name="author" content="Giulio Pimenoff" />
+    <meta name="robots" content="noodp,noydir" />
+
+    <!-- Primary Meta Tags -->
+    <title>Astro - Infinite Voice Channels for your Discord!</title>
+    <meta
+      name="title"
+      content="Astro - Infinite Voice Channels for your Discord!"
+    />
+    <meta
+      name="description"
+      content="Astro is the ultimate Discord Bot for your server's Voice Channels. It handles temporary VCs and has many other unique and useful features just for voice channels!"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://astro-bot.space" />
+    <meta
+      property="og:title"
+      content="Astro - Infinite Voice Channels for your Discord!"
+    />
+    <meta
+      property="og:description"
+      content="Astro is the ultimate Discord Bot for your server's Voice Channels. It handles temporary VCs and has many other unique and useful features just for voice channels!"
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/wKZbnTt/Astro-Ultimate.png"
+    />
+    <meta name="theme-color" content="#BB17EE" />
   </head>
   <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./background.js"></script>
+    <div id="particles-js"></div>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
