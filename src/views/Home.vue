@@ -50,12 +50,16 @@
               <div class="roleName">Features</div>
             </div>
           </router-link>
-          <router-link to="/docs">
+          <a
+            href="https://docs.astro-bot.space"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <div class="role" id="commands">
               <div class="roleCircle"></div>
               <div class="roleName">Documentation</div>
             </div>
-          </router-link>
+          </a>
           <router-link to="/ultimate">
             <div class="role" id="ultimate">
               <div class="roleCircle"></div>
