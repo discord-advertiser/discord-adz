@@ -101,7 +101,7 @@ export default {
   methods: {
     async getStats() {
       axios({
-        url: "http://135.181.106.198:8081/info"
+        url: "https://api.astro-bot.space/info"
       }).then(res => {
         this.guilds = res.data.guilds;
         this.users = res.data.users;
