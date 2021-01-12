@@ -141,4 +141,39 @@ export default {
 #featuresBG {
   font-size: 1.7em;
 }
+
+.arrow {
+  width: 1.7em;
+  margin-right: 0.6em;
+  margin-top: -0.2em;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.demo {
+  color: var(--astro-purple);
+}
+.demo > a {
+  color: var(--astro-purple);
+  text-decoration: none;
+}
+.demo > a:visited {
+  color: var(--astro-purple);
+}
+.demo > a:hover {
+  color: white;
+}
+
+.featureWrapper {
+  display: table-row;
+}
+.featureDescription {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#vcMeaning {
+  font-size: 0.8em;
+  color: #d4d4d4;
+}
 </style>

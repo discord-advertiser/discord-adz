@@ -4,6 +4,7 @@ import router from "./router";
 const axios = require("axios");
 const { APIKEY } = require("../config.json");
 
+// Set default options for axios requests
 axios.interceptors.request.use(
   config => {
     return {
@@ -15,8 +16,6 @@ axios.interceptors.request.use(
   },
   error => Promise.reject(error)
 );
-
-Vue.config.productionTip = false;
 
 new Vue({
   router,

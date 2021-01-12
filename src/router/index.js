@@ -33,7 +33,7 @@ const routes = [
     path: "/vote",
     name: "Vote",
     component: Vote
-  },
+  }
 ];
 
 const router = new VueRouter({

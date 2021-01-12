@@ -62,8 +62,32 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #voteDescription {
   font-size: 0.8em;
+}
+
+/* Arrows */
+.arrowCommands {
+  width: 1.7em;
+  vertical-align: middle;
+  float: left;
+  margin-right: 0.6em;
+  margin-top: -0.2em;
+}
+#rotateArrow {
+  float: none;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#topgg {
+  color: var(--astro-purple);
+}
+#topgg:hover {
+  color: white !important;
 }
 </style>
