@@ -76,7 +76,7 @@
             alt="arrow PNG"
           />
           <div class="featureDescription">
-            Astro focused exclusively on Voice Channels and has over 50 commands just for them, which makes it the best of its kind!<br />
+            Astro focuses exclusively on Voice Channels and has over 50 commands just for them, which makes it the best bot of its kind!<br />
           </div>
         </div>
         <br />
