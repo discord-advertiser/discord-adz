@@ -53,13 +53,13 @@
 </template>
 
 <script>
-import CardNavBar from "@/components/cardSections/CardNavBar";
+import CardNavBar from '@/components/cardSections/CardNavBar'
 export default {
-  name: "Vote",
+  name: 'Vote',
   components: {
     CardNavBar
   }
-};
+}
 </script>
 
 <style scoped>

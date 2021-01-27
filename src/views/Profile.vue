@@ -86,29 +86,29 @@
 </template>
 
 <script>
-const axios = require("axios");
+const axios = require('axios')
 export default {
-  name: "Profile",
-  data() {
+  name: 'Profile',
+  data () {
     return {
-      guilds: "1100",
-      users: "534640"
-    };
+      guilds: '1100',
+      users: '534640'
+    }
   },
-  beforeMount() {
-    this.getStats();
+  beforeMount () {
+    this.getStats()
   },
   methods: {
-    async getStats() {
+    async getStats () {
       axios({
-        url: "https://api.astro-bot.space/info"
+        url: 'https://api.astro-bot.space/info'
       }).then(res => {
-        this.guilds = res.data.guilds;
-        this.users = res.data.users;
-      });
+        this.guilds = res.data.guilds
+        this.users = res.data.users
+      })
     }
   }
-};
+}
 </script>
 
 <style scoped>

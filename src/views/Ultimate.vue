@@ -206,13 +206,13 @@
 </template>
 
 <script>
-import CardNavBar from "@/components/cardSections/CardNavBar";
+import CardNavBar from '@/components/cardSections/CardNavBar'
 export default {
-  name: "Ultimate",
+  name: 'Ultimate',
   components: {
     CardNavBar
   }
-};
+}
 </script>
 
 <style scoped>

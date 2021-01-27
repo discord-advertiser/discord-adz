@@ -8,8 +8,8 @@
 
 <script>
 export default {
-  name: "CardNavBar"
-};
+  name: 'CardNavBar'
+}
 </script>
 
 <style scoped>
