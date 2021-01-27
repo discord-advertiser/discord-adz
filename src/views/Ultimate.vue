@@ -176,7 +176,7 @@
               <div class="ultimateField">
                 If you have a big server with over 10000 active users and you
                 would like to get the best Astro experience, you can shoot me a
-                DM on Discord (&lt;/&gt; Giuliopime#4965) and I'll give you
+                DM on Discord (Giuliopime#4965) and I'll give you
                 permanent access to Astro Ultimate!
               </div>
             </div>
