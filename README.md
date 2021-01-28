@@ -1,24 +1,3 @@
-# astro-bot.space
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# [astro-bot.space](https://astro-bot.space)
+This is the official website for [Astro](https://github.com/Giuliopime/Astro), the Discord bot.  
+Made with [VueJS](https://vuejs.org).
