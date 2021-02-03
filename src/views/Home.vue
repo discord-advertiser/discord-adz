@@ -69,7 +69,7 @@
         </div>
         <div class="roles">
           <a
-            href="https://discord.com/oauth2/authorize?client_id=715621848489918495&scope=bot&permissions=285736145"
+            href="https://astro-bot.space/invite"
             target="_blank"
             rel="noopener noreferrer"
           >
